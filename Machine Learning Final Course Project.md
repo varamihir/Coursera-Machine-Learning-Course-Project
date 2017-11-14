@@ -207,7 +207,7 @@ pml_write_files = function(x){
 pml_write_files(pred)
 ```
 
-####Out of Sample Error
+#### Out of Sample Error
 
 ```{r, echo = TRUE}
 #Find out how much error we have in Random Forest Model
@@ -215,11 +215,11 @@ error <- 1-RF$overll["Accuracy"]
 error
 ```
 
-####Conclusion
+#### Conclusion
 
 From the resulting table we can see the Random Forest algorithm yields a better result.
 
-####Appendices
+#### Appendices
 
 Just checking the Variable Imporatance in the final Random Forest Model
 
